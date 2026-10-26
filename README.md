@@ -1,13 +1,12 @@
-# An informal library for quantum algorithms
+# Coherent Kuperberg's Algorithm using Copies rather than Oracles
 
-This library contains the code for implementing some quantum algorithms and is supposed to be extended.
+This library contains the code for implementing several quantum algorithms regarding the Hidden Shift Problem.
 
 # List of algorithms
-- The coherent and fixed-point amplitude amplification of [YLC14].
-- The coherent Hamiltonian simulation of [LMR14]. 
-- The amplitude amplifcation using copies of the state instead of the creator operator
-    - It is a nice combination of [YLC14] and [LMR14]. **To see a cool application for Euclidean lattice problems, send me an email.**
-
+- The coherent and fixed-point amplitude amplification of [YLC14]; using the oracle |0> -> |0>|psi_bad>+|1>|psi_good>.
+- The coherent Hamiltonian simulation of [LMR14] that given copies of rho, implements e^{-i rho}. 
+- The amplitude amplifcation using copies of the state instead of the oracle, which is a combination of [YLC14] and [LMR14]. **To see a cool application for Euclidean lattice problems, send me an email.**
+- 
 [YLC14] Theodore J. Yoder, Guang Hao Low, and Isaac L. Chuang. Fixed-point quantum search with an optimal
 number of queries. Phys. Rev. Lett., 2014.
 
